@@ -1,0 +1,192 @@
+# Editing dashboard for Pages CMS (https://app.pagescms.org).
+# Each entry below is one screen in the dashboard. Saving a screen commits to GitHub,
+# and the site rebuilds automatically (about a minute).
+# Every field in each content file is listed here so saving never drops data.
+
+media:
+  input: src/img
+  output: /img
+  categories: [image]
+  rename: safe
+
+content:
+  - name: business
+    label: Business info & hours
+    type: file
+    path: content/business.json
+    format: json
+    fields:
+      - { name: name, label: Business name, type: string, required: true }
+      - { name: kicker, label: "Small line above the logo (keep the town in it, Google reads it)", type: string }
+      - { name: tagline, label: Short line under the logo, type: text }
+      - { name: phone, label: "Phone, as shown (e.g. (479) 783-9413)", type: string, required: true }
+      - { name: street, label: Street address, type: string, required: true }
+      - { name: city, label: City, type: string, required: true }
+      - { name: state, label: State, type: string, required: true }
+      - { name: zip, label: ZIP code, type: string, required: true }
+      - { name: mapsUrl, label: Google Maps link, type: string }
+      - { name: facebookUrl, label: "Facebook page link (leave empty to hide the button)", type: string }
+      - { name: latitude, label: "Map latitude (leave as is)", type: number }
+      - { name: longitude, label: "Map longitude (leave as is)", type: number }
+      - { name: googleRating, label: "Google rating (e.g. 4.1)", type: string }
+      - { name: googleReviewCount, label: Number of Google reviews, type: string }
+      - name: ticker
+        label: Scrolling banner messages
+        type: object
+        list: true
+        fields:
+          - { name: text, label: Message, type: string }
+      - { name: bannerTitle, label: "Green banner, first words (e.g. Free pool)", type: string }
+      - { name: bannerHighlight, label: "Green banner, highlighted words (e.g. every Sunday)", type: string }
+      - { name: bannerTitleEnd, label: "Green banner, last words (e.g. , day & night)", type: string }
+      - { name: bannerText, label: Green banner small line, type: string }
+      - { name: nearNote, label: "How to find us (line by the address)", type: text }
+      - name: services
+        label: "Service tags (Dine-in, Takeout, Pool tables...)"
+        type: object
+        list: true
+        fields:
+          - { name: text, label: Tag, type: string }
+      - name: hours
+        label: "Hours (24-hour clock: 10:00 = 10 AM, 02:00 = 2 AM; a closing time earlier than opening means after midnight)"
+        type: object
+        list: true
+        fields:
+          - { name: day, label: Day, type: string, readonly: true }
+          - { name: closed, label: Closed all day, type: boolean }
+          - { name: opens, label: "Opens (e.g. 10:00)", type: string }
+          - { name: closes, label: "Closes (e.g. 02:00)", type: string }
+      - { name: footerNote, label: "Footer note (leave empty once the site is live)", type: string }
+
+  - name: tournaments
+    label: Pool tournaments
+    type: file
+    path: content/tournaments.json
+    format: json
+    fields:
+      - { name: intro, label: Line under the heading, type: text }
+      - name: items
+        label: Tournaments
+        type: object
+        list: true
+        fields:
+          - { name: day, label: "Day (e.g. Thursday)", type: string, required: true }
+          - { name: title, label: Tournament name, type: string, required: true }
+          - { name: starts, label: "Start time (e.g. Starts 7:30 PM)", type: string }
+          - name: details
+            label: "Details (big text + small text, e.g. $5 / Entry)"
+            type: object
+            list: true
+            fields:
+              - { name: big, label: "Big text (e.g. $5, 7 PM)", type: string }
+              - { name: small, label: "Small text (e.g. Entry, Sign up)", type: string }
+      - { name: note, label: Note under the tournaments, type: text }
+
+  - name: favorites
+    label: Fan favorites (photo cards)
+    type: file
+    path: content/favorites.json
+    format: json
+    fields:
+      - { name: intro, label: Line under the heading, type: text }
+      - name: items
+        label: Favorites
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: text, label: Short description, type: text }
+          - { name: image, label: "Photo (tall photos look best)", type: image }
+          - { name: alt, label: "Photo description (for Google & screen readers)", type: string }
+          - { name: showTop, label: "Show the top of the photo (instead of the middle)", type: boolean }
+
+  - name: home-menu
+    label: Menu preview & lunch special (homepage)
+    type: file
+    path: content/home-menu.json
+    format: json
+    fields:
+      - { name: intro, label: Line under the heading, type: text }
+      - name: columns
+        label: Groups
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Group title, type: string }
+          - { name: menuSection, label: "Full menu section the \"See all\" link opens (type its name exactly)", type: string }
+          - name: items
+            label: Items
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Item, type: string }
+              - { name: price, label: Price, type: string }
+      - { name: specialLabel, label: "Special, bold part (e.g. Lunch special, 11 AM – 5 PM:)", type: string }
+      - { name: specialText, label: Special, rest of the line, type: text }
+
+  - name: menu
+    label: Full menu
+    type: file
+    path: content/menu.json
+    format: json
+    fields:
+      - name: categories
+        label: Menu sections
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Section name, type: string, required: true }
+          - name: items
+            label: Items
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Item name, type: string, required: true }
+              - { name: price, label: "Price (e.g. $5.50)", type: string }
+              - { name: description, label: "Small line under the item (optional)", type: string }
+          - name: notes
+            label: Notes under the section
+            type: object
+            list: true
+            fields:
+              - { name: bold, label: "Bold start (optional, e.g. Daily happy hour:)", type: string }
+              - { name: text, label: Note, type: text }
+      - { name: footNote, label: Note at the bottom of the full menu, type: text }
+
+  - name: reviews
+    label: Reviews
+    type: file
+    path: content/reviews.json
+    format: json
+    fields:
+      - name: items
+        label: Reviews
+        type: object
+        list: true
+        fields:
+          - { name: stars, label: Stars (1-5), type: number }
+          - { name: quote, label: Review text, type: text }
+          - { name: author, label: "Reviewer name (optional)", type: string }
+          - { name: source, label: "Source (e.g. Google review)", type: string }
+      - name: mentions
+        label: "Most mentioned in reviews"
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Topic, type: string }
+          - { name: count, label: Times mentioned, type: string }
+
+  - name: seo
+    label: Google & sharing (SEO)
+    type: file
+    path: content/seo.json
+    format: json
+    fields:
+      - { name: siteUrl, label: "Website address (change at launch)", type: string, required: true }
+      - { name: title, label: Google title, type: string }
+      - { name: description, label: Google description, type: text }
+      - { name: shareTitle, label: Title when shared on Facebook or texts, type: string }
+      - { name: shareDescription, label: Description when shared, type: text }
+      - { name: cuisine, label: "Cuisine (comma separated)", type: string }
+      - { name: priceRange, label: "Price range (e.g. $)", type: string }
+      - { name: hideFromGoogle, label: Hide this site from Google (use for previews), type: boolean }

@@ -1,0 +1,33 @@
+{
+  "intro": "What keeps folks coming back to Grand Avenue.",
+  "items": [
+    {
+      "title": "Live bands",
+      "text": "A real stage with live bands. Follow us on Facebook to see who’s playing.",
+      "image": "/img/shooters-live-band-stage-800.webp",
+      "alt": "Live band stage with lights at Shooters Bar and Grill",
+      "showTop": false
+    },
+    {
+      "title": "Hot wings",
+      "text": "Hot wings, cheese sticks, onion rings and more off the grill.",
+      "image": "/img/shooters-hot-wings-800.webp",
+      "alt": "Hot wings in a red checkered basket",
+      "showTop": false
+    },
+    {
+      "title": "Buckets of beer",
+      "text": "Six domestic bottles on ice for $14. Easy math for a table of friends.",
+      "image": "/img/shooters-beer-bucket-800.webp",
+      "alt": "Bucket of beer bottles on ice",
+      "showTop": true
+    },
+    {
+      "title": "The bar",
+      "text": "Cold beer, mixed drinks and a back bar full of whiskey.",
+      "image": "/img/shooters-full-bar-800.webp",
+      "alt": "Back bar shelves full of bottles at Shooters Bar and Grill",
+      "showTop": false
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Shooter's Bar & Grill",
+  "kicker": "2201 Grand Ave · Fort Smith, Arkansas",
+  "tagline": "Pool tables, live bands, homemade burgers and cold beer on Grand Avenue in Fort Smith.",
+  "phone": "(479) 783-9413",
+  "street": "2201 Grand Ave",
+  "city": "Fort Smith",
+  "state": "AR",
+  "zip": "72901",
+  "mapsUrl": "https://www.google.com/maps/place/Shooter%27s+Bar+%26+Grill/@35.3866803,-94.4040452,17z/data=!4m6!3m5!1s0x87ca4cb1c2ad1f6b:0x5736c2373a717f10!8m2!3d35.3866803!4d-94.4040452",
+  "facebookUrl": "https://www.facebook.com/shooters.bar.33/",
+  "latitude": 35.3866803,
+  "longitude": -94.4040452,
+  "googleRating": "4.1",
+  "googleReviewCount": "450",
+  "ticker": [
+    {
+      "text": "WEEKLY POOL TOURNAMENTS"
+    },
+    {
+      "text": "DAILY HAPPY HOUR 3–7"
+    },
+    {
+      "text": "LIVE BANDS"
+    },
+    {
+      "text": "HOMEMADE BURGERS"
+    },
+    {
+      "text": "COLD BEER"
+    },
+    {
+      "text": "2201 GRAND AVE · FORT SMITH"
+    }
+  ],
+  "bannerTitle": "Free pool",
+  "bannerHighlight": "every Sunday",
+  "bannerTitleEnd": ", day & night",
+  "bannerText": "Grab a table, a cold one and a few friends.",
+  "nearNote": "On Grand Avenue in Fort Smith. Look for the green and yellow building with the Shooters sign and plenty of parking out front.",
+  "services": [
+    {
+      "text": "Dine-in"
+    },
+    {
+      "text": "Takeout"
+    },
+    {
+      "text": "Delivery"
+    },
+    {
+      "text": "Pool tables"
+    },
+    {
+      "text": "Live bands"
+    }
+  ],
+  "hours": [
+    {
+      "day": "Monday",
+      "closed": false,
+      "opens": "10:00",
+      "closes": "02:00"
+    },
+    {
+      "day": "Tuesday",
+      "closed": false,
+      "opens": "10:00",
+      "closes": "02:00"
+    },
+    {
+      "day": "Wednesday",
+      "closed": false,
+      "opens": "10:00",
+      "closes": "02:00"
+    },
+    {
+      "day": "Thursday",
+      "closed": false,
+      "opens": "10:00",
+      "closes": "02:00"
+    },
+    {
+      "day": "Friday",
+      "closed": false,
+      "opens": "10:00",
+      "closes": "02:00"
+    },
+    {
+      "day": "Saturday",
+      "closed": false,
+      "opens": "10:00",
+      "closes": "02:00"
+    },
+    {
+      "day": "Sunday",
+      "closed": false,
+      "opens": "10:00",
+      "closes": "02:00"
+    }
+  ],
+  "footerNote": "Private design preview, not yet published."
+}

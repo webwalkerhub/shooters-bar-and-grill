@@ -1,0 +1,170 @@
+{
+  "footNote": "Prices from the in-house menu and subject to change. All take-out orders add 75¢. Call-ins welcome.",
+  "categories": [
+    {
+      "name": "Burgers & sandwiches",
+      "items": [
+        {
+          "name": "Hamburger (1/4 pound)",
+          "price": "$5.50",
+          "description": ""
+        },
+        {
+          "name": "Hamburger (1/2 pound)",
+          "price": "$7.50",
+          "description": ""
+        },
+        {
+          "name": "Cheeseburger (1/4 pound)",
+          "price": "$6.00",
+          "description": ""
+        },
+        {
+          "name": "Cheeseburger (1/2 pound)",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "BLT",
+          "price": "$6.50",
+          "description": ""
+        },
+        {
+          "name": "Grilled Cheese",
+          "price": "$4.50",
+          "description": ""
+        }
+      ],
+      "notes": [
+        {
+          "bold": "",
+          "text": "All sandwiches available with your choice of lettuce, tomato, onion, cucumber, jalapeños, pickles, ketchup, mustard and mayo."
+        },
+        {
+          "bold": "Make it a basket, add $2.50:",
+          "text": "homemade fries or tater tots (onion rings add $3.50)."
+        },
+        {
+          "bold": "",
+          "text": "Extra cheese or jalapeños, add 75¢."
+        },
+        {
+          "bold": "Lunch special, 11 AM – 5 PM:",
+          "text": "half-pound burger baskets for $9.00. Comes with fries or tater tots (onion rings add $1.00)."
+        }
+      ]
+    },
+    {
+      "name": "Wings, sides & more",
+      "items": [
+        {
+          "name": "Hot Wings (6)",
+          "price": "$8.50",
+          "description": ""
+        },
+        {
+          "name": "Cheese Sticks",
+          "price": "$7.50",
+          "description": ""
+        },
+        {
+          "name": "Chicken Strips",
+          "price": "$7.50",
+          "description": ""
+        },
+        {
+          "name": "Homemade Fries",
+          "price": "$4.50",
+          "description": ""
+        },
+        {
+          "name": "Onion Rings",
+          "price": "$5.50",
+          "description": ""
+        },
+        {
+          "name": "Tater Tots",
+          "price": "$4.50",
+          "description": ""
+        },
+        {
+          "name": "Soft Tacos (3)",
+          "price": "$6.50",
+          "description": "Chicken or beef"
+        },
+        {
+          "name": "Nacho Platter",
+          "price": "$10.50",
+          "description": "Chicken or beef. Sour cream add 50¢"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Bucket of Beer",
+          "price": "$14.00",
+          "description": "6 domestic bottles"
+        },
+        {
+          "name": "Domestic Beer",
+          "price": "$2.75",
+          "description": ""
+        },
+        {
+          "name": "Premium Beer",
+          "price": "$3.75",
+          "description": ""
+        },
+        {
+          "name": "Jäger Bomb",
+          "price": "$7.50",
+          "description": ""
+        },
+        {
+          "name": "Long Island Tea",
+          "price": "$15.50",
+          "description": ""
+        },
+        {
+          "name": "Red Bull",
+          "price": "$3.50",
+          "description": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Happy hour",
+      "items": [
+        {
+          "name": "Domestic Beer",
+          "price": "$2.25",
+          "description": "Happy hour"
+        },
+        {
+          "name": "Well Tequila & Fireball Shots",
+          "price": "$3.25",
+          "description": "Happy hour"
+        },
+        {
+          "name": "Well Margaritas",
+          "price": "$4.25",
+          "description": "Happy hour"
+        }
+      ],
+      "notes": [
+        {
+          "bold": "Daily happy hour:",
+          "text": "3 PM – 7 PM."
+        },
+        {
+          "bold": "Karaoke:",
+          "text": "Friday & Saturday, 8 PM – midnight."
+        }
+      ]
+    }
+  ]
+}

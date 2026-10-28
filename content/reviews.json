@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "stars": 5,
+      "quote": "Had a good time there, played a few games of pool, had a couple beers. Good friends and company. Nice hospitality.",
+      "author": "Ronald M.",
+      "source": "Google review"
+    },
+    {
+      "stars": 5,
+      "quote": "Awesome burgers and fries, friendly atmosphere, and great people.",
+      "author": "",
+      "source": "Google review"
+    },
+    {
+      "stars": 5,
+      "quote": "Best price in town for cocktails, friendly servers, good music on jukebox.",
+      "author": "",
+      "source": "Google review"
+    }
+  ],
+  "mentions": [
+    {
+      "label": "Pool",
+      "count": "74"
+    },
+    {
+      "label": "Live bands",
+      "count": "15"
+    },
+    {
+      "label": "Pool tables",
+      "count": "12"
+    }
+  ]
+}

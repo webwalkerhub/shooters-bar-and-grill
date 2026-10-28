@@ -1,0 +1,94 @@
+{
+  "intro": "Four pool tournaments a week. Sign up at the bar, $5 to play most nights.",
+  "note": "Times and payouts can change. Call (479) 783-9413 to check before you head over.",
+  "items": [
+    {
+      "day": "Thursday",
+      "title": "Ladies Pool Tournament",
+      "starts": "Starts 7:30 PM",
+      "details": [
+        {
+          "big": "7 PM",
+          "small": "Sign up"
+        },
+        {
+          "big": "$5",
+          "small": "Entry"
+        },
+        {
+          "big": "$50",
+          "small": "Added with 16+ players"
+        },
+        {
+          "big": "21+",
+          "small": "Ladies only"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "title": "Scottish Doubles",
+      "starts": "Starts 8 PM",
+      "details": [
+        {
+          "big": "7 PM",
+          "small": "Sign up, be here by 7:30"
+        },
+        {
+          "big": "$5",
+          "small": "Entry"
+        },
+        {
+          "big": "$50",
+          "small": "Added at 16 players"
+        },
+        {
+          "big": "2",
+          "small": "Bring a partner or pair up here"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "title": "Saturday Pool Tournament",
+      "starts": "Starts 8 PM",
+      "details": [
+        {
+          "big": "7 PM",
+          "small": "Sign up, arrive by 7:30"
+        },
+        {
+          "big": "$5",
+          "small": "Entry"
+        },
+        {
+          "big": "$50",
+          "small": "Added with 16 players"
+        },
+        {
+          "big": "🏆",
+          "small": "Payout for last woman standing"
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "title": "9 Ball Tournament",
+      "starts": "Starts 4 PM",
+      "details": [
+        {
+          "big": "$10",
+          "small": "Entry"
+        },
+        {
+          "big": "Race",
+          "small": "to 3, Texas Express rules"
+        },
+        {
+          "big": "💰",
+          "small": "Win cash and bragging rights"
+        }
+      ]
+    }
+  ]
+}
